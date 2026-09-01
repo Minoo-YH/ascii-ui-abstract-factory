@@ -1,7 +1,8 @@
 public class Main {
   public static void main(String[] args) {
 
-    UIFactory factory = new AFactory();
+    //UIFactory factory = new AFactory();
+    UIFactory factory = new BFactory();
     Button button = factory.createButton("Click Me");
     Checkbox checkbox = factory.createCheckbox("Accept Terms");
     TextField textField = factory.createTextField("Enter Name");
