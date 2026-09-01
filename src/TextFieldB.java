@@ -1,14 +1,11 @@
 public class TextFieldB extends TextField {
 
-    public TextFieldA(String text) {
+    public TextFieldB(String text) {
         super(text);
     }
 
     @Override
     public void display() {
-      
-        System.out.println("| " + text + " |");
-       
+        System.out.println("< " + text + " >");
     }
-  
 }
